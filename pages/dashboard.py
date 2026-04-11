@@ -13,11 +13,11 @@ def dash_card(icon, label, val, highlight=False):
     border = "rgba(230,57,70,0.3)" if highlight else "rgba(31,122,122,0.15)"
     icon_bg = "rgba(230,57,70,0.12)" if highlight else "rgba(31,122,122,0.1)"
     st.markdown(f"""
-    <div style="background:{bg}; border:1px solid {border}; border-radius:14px; padding:20px; display:flex; align-items:center; gap:18px; height: 100%;">
-      <div style="background:{icon_bg}; width:52px; height:52px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:26px;">{icon}</div>
+    <div style="background:{bg}; border:1px solid {border}; border-radius:14px; padding:20px; display:flex; align-items:center; gap:16px; height: 100%;">
+      <div style="background:{icon_bg}; width:48px; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px;">{icon}</div>
       <div style="display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-family:'Sora',sans-serif; font-size:26px; font-weight:800; color:{DEEP}; line-height:1.1;">{val}</div>
-        <div style="font-size:14px; font-weight:600; color:#5A8A78; margin-top:4px;">{label}</div>
+        <div style="font-family:'Sora',sans-serif; font-size:22px; font-weight:800; color:{DEEP}; line-height:1.1;">{val}</div>
+        <div style="font-size:12px; font-weight:600; color:#5A8A78; margin-top:4px;">{label}</div>
       </div>
     </div>
     """, unsafe_allow_html=True)
@@ -68,7 +68,7 @@ def render(render_topbar):
     st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
     c_title, c_btn = st.columns([0.80, 0.20])
     with c_title:
-        st.markdown('<div style="font-family:Sora,sans-serif; font-size:26px; font-weight:800; color:#0F3D3E; margin-bottom: 24px;">Over View</div>', unsafe_allow_html=True)
+        st.markdown('<div style="font-family:Sora,sans-serif; font-size:24px; font-weight:800; color:#0F3D3E; margin-bottom: 24px;">Overview</div>', unsafe_allow_html=True)
     with c_btn:
         st.markdown('''<style>
             div[data-testid="stButton"] button {
@@ -103,7 +103,7 @@ def render(render_topbar):
     
     with cm1:
         st.markdown('<div class="sec-card" style="height:320px; display:flex; flex-direction:column;">', unsafe_allow_html=True)
-        st.markdown('<div class="sec-title" style="margin-bottom:auto; font-size:16px;">No of users &nbsp;⋮</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-title" style="margin-bottom:auto; font-size:14px;">No of users &nbsp;⋮</div>', unsafe_allow_html=True)
         st.markdown("""
         <div style="display:flex; flex-direction:column; justify-content:center; flex:1;">
             <div style="background:rgba(31,122,122,0.1); width:64px; height:54px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:28px; margin-bottom:20px;">👥</div>
@@ -115,7 +115,7 @@ def render(render_topbar):
 
     with cm2:
         st.markdown('<div class="sec-card" style="height:320px; display:flex; flex-direction:column;">', unsafe_allow_html=True)
-        st.markdown('<div class="sec-title" style="font-size:16px;">Inventory Values</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-title" style="font-size:14px;">Inventory Values</div>', unsafe_allow_html=True)
         
         sold_units = int(sales_copy["quantity"].sum()) if "quantity" in sales_copy.columns else 3200
         
@@ -139,7 +139,7 @@ def render(render_topbar):
 
     with cm3:
         st.markdown('<div class="sec-card" style="height:320px; display:flex; flex-direction:column;">', unsafe_allow_html=True)
-        st.markdown('<div class="sec-title" style="font-size:16px;">Top 10 Stores by sales</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-title" style="font-size:14px;">Top 10 Stores by sales</div>', unsafe_allow_html=True)
         
         if "product_name" in sales_copy.columns and not sales_copy.empty:
             top_brands = sales_copy.groupby("product_name")["quantity"].sum().sort_values(ascending=True).tail(10)
@@ -168,7 +168,7 @@ def render(render_topbar):
     st.markdown('<div class="sec-card" style="margin-bottom:40px; padding:24px;">', unsafe_allow_html=True)
     st.markdown("""
         <div style="display:flex; justify-content:space-between; margin-bottom:20px; padding-left:10px;">
-            <div class="sec-title" style="font-size:18px;">Expense vs Profit</div>
+            <div class="sec-title" style="font-size:16px;">Expense vs Profit</div>
             <div style="font-size:14px; color:#5A8A78; font-weight:600;">Last 6 months</div>
         </div>
     """, unsafe_allow_html=True)
@@ -208,7 +208,7 @@ def render(render_topbar):
         <div style="display:flex; align-items:center; margin-bottom:28px;">
             <div style="font-size:32px; margin-right:16px;">🤖</div>
             <div>
-                <div class="sec-title" style="font-size:24px; margin-bottom:4px; color:#0F3D3E;">Smart Insights</div>
+                <div class="sec-title" style="font-size:20px; margin-bottom:4px; color:#0F3D3E;">Smart Insights</div>
                 <div style="font-size:14px; color:#5A8A78; font-weight:500;">AI-generated action items customized for your shop today</div>
             </div>
         </div>

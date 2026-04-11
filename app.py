@@ -60,12 +60,9 @@ st.markdown("""
 html, body { font-family: 'DM Sans', sans-serif; }
 
 /* ── hide streamlit chrome ── */
-#MainMenu, footer, header,
+#MainMenu, footer,
 [data-testid="stToolbar"],
-[data-testid="stDecoration"],
-[data-testid="stHeader"],
-[data-testid="collapsedControl"],
-section[data-testid="stSidebar"] { display: none !important; visibility: hidden !important; }
+[data-testid="stDecoration"] { display: none !important; visibility: hidden !important; }
 
 .block-container { padding: 0 !important; max-width: 100% !important; }
 [data-testid="stVerticalBlock"] { gap: 0 !important; }
@@ -287,20 +284,17 @@ div.stTabs [role="tabpanel"] { padding-top: 20px !important; }
 /* ═══════════════════════════════════
    TOPBAR
 ═══════════════════════════════════ */
-.tb-title { font-family: 'Sora', sans-serif; font-size: 18px; font-weight: 800; color: var(--deep); }
-.tb-sub   { font-size: 12px; color: var(--tmid); margin-top: 1px; }
-.tb-chip  { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 6px 14px; font-size: 12px; color: var(--tmid); font-family: 'DM Mono', monospace; display:inline-block;}
-.tb-avatar { width: 36px; height: 36px; border-radius: 9px; background: linear-gradient(135deg, var(--teal), var(--mint)); display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800; color: #fff; font-family: 'Sora', sans-serif; }
-.tb-title { font-family: 'Sora', sans-serif; font-size: 18px; font-weight: 800; color: var(--deep); }
-.tb-sub   { font-size: 12px; color: var(--tmid); margin-top: 1px; }
+.tb-title { font-family: 'Sora', sans-serif; font-size: 26px; font-weight: 800; color: var(--deep); }
+.tb-sub   { font-size: 13px; color: var(--tmid); margin-top: 1px; }
 .tb-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-.tb-chip  { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 6px 14px; font-size: 12px; color: var(--tmid); font-family: 'DM Mono', monospace; }
+.tb-chip  { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 6px 14px; font-size: 12px; color: var(--tmid); font-family: 'DM Mono', monospace; display:inline-block; }
 .tb-avatar { width: 36px; height: 36px; border-radius: 9px; background: linear-gradient(135deg, var(--teal), var(--mint)); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800; color: #fff; font-family: 'Sora', sans-serif; }
 
 /* ═══════════════════════════════════
-   DASHBOARD PAGE
+   DASHBOARD & SIDEBAR CORE OVERRIDES
 ═══════════════════════════════════ */
 [data-testid="stApp"] { background: var(--bg) !important; }
+[data-testid="stHeader"] { background: transparent !important; }
 [data-testid="block-container"] { padding: 3rem 2rem !important; }
 [data-testid="stSidebar"] { background: var(--deep) !important; border-right: 1px solid rgba(255,255,255,0.06) !important; }
 [data-testid="stSidebarUserContent"] { padding: 0 !important; padding-top: 10px !important; }
@@ -604,28 +598,7 @@ def show_dashboard():
 
     page = st.session_state.active_page
 
-    # Logout button inside sidebar area using Streamlit
-    st.markdown("""
-    <style>
-    .logout-area { position:fixed;left:0;bottom:68px;width:230px;z-index:1000;padding:0 16px; }
-    .logout-area .stButton > button {
-      background: rgba(230,57,70,0.08) !important;
-      border: 1px solid rgba(230,57,70,0.22) !important;
-      color: rgba(230,57,70,0.85) !important;
-      border-radius: 10px !important;
-      font-size: 13px !important; font-weight: 600 !important;
-      padding: 9px 14px !important; width: 100% !important;
-      box-shadow: none !important; margin-top: 0 !important;
-    }
-    .logout-area .stButton > button:hover { background: rgba(230,57,70,0.15) !important; color: #E63946 !important; transform: none !important; }
-    </style>
-    <div class="logout-area">
-    """, unsafe_allow_html=True)
-    if st.button("🚪 Logout", key="logout_btn"):
-        st.session_state.logged_in   = False
-        st.session_state.active_page = "dashboard"
-        st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
+
 
     # Route to page
     if page == "dashboard":
