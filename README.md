@@ -1095,8 +1095,8 @@ gantt
 
 | Member | Role |
 |:---:|:---:|
-| 👤 **Team Saathi** | Full Stack · ML · DevOps |
-| 📍 Hyderabad, Telangana | Hackathon 2025 |
+| 👤 **Saathi** | Full Stack · ML · DevOps |
+| 📍 Hyderabad, Telangana | CodeQuestors- Hackathon 2026 |
 
 </div>
 
