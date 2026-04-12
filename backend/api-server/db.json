@@ -1,0 +1,3224 @@
+{
+  "inventory": [
+    {
+      "id": "rice",
+      "name": "Rice",
+      "stock": 22,
+      "price": 51
+    },
+    {
+      "id": "oil",
+      "name": "Oil",
+      "stock": 21,
+      "price": 161
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "stock": 57,
+      "price": 42
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "stock": 62,
+      "price": 78
+    },
+    {
+      "id": "biscuits",
+      "name": "Biscuits",
+      "stock": 48,
+      "price": 15
+    },
+    {
+      "id": "soft_drinks",
+      "name": "Soft Drinks",
+      "stock": 21,
+      "price": 86
+    },
+    {
+      "id": "atta",
+      "name": "Atta",
+      "stock": 83,
+      "price": 54
+    }
+  ],
+  "salesHistory": {
+    "Rice": [
+      {
+        "date": "2026-01-12",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 36,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 22,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 30,
+        "isFestival": false
+      }
+    ],
+    "Oil": [
+      {
+        "date": "2026-01-12",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 40,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 12,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 30,
+        "isFestival": false
+      }
+    ],
+    "Sugar": [
+      {
+        "date": "2026-01-12",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 40,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 10,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 19,
+        "isFestival": false
+      }
+    ],
+    "Milk": [
+      {
+        "date": "2026-01-12",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 22,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 26,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 34,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 24,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 11,
+        "isFestival": false
+      }
+    ],
+    "Biscuits": [
+      {
+        "date": "2026-01-12",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 0,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 1,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 0,
+        "isFestival": false
+      }
+    ],
+    "Soft Drinks": [
+      {
+        "date": "2026-01-12",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 1,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 0,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 0,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 1,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 1,
+        "isFestival": false
+      }
+    ],
+    "Atta": [
+      {
+        "date": "2026-01-12",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-13",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-14",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-15",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-16",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-17",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-18",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-19",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-20",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-21",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-22",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-23",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-24",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-25",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-26",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-27",
+        "sales": 20,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-28",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-29",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-30",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-01-31",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-01",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-02",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-03",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-04",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-05",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-06",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-07",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-08",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-09",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-10",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-11",
+        "sales": 14,
+        "isFestival": true
+      },
+      {
+        "date": "2026-02-12",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-13",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-14",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-15",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-16",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-17",
+        "sales": 12,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-18",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-19",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-20",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-21",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-22",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-23",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-24",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-25",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-26",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-27",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-02-28",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-01",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-02",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-03",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-04",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-05",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-06",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-07",
+        "sales": 22,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-08",
+        "sales": 9,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-09",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-10",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-11",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-12",
+        "sales": 7,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-13",
+        "sales": 34,
+        "isFestival": true
+      },
+      {
+        "date": "2026-03-14",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-15",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-16",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-17",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-18",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-19",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-20",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-21",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-22",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-23",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-24",
+        "sales": 14,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-25",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-26",
+        "sales": 16,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-27",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-28",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-29",
+        "sales": 10,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-30",
+        "sales": 19,
+        "isFestival": false
+      },
+      {
+        "date": "2026-03-31",
+        "sales": 15,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-01",
+        "sales": 17,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-02",
+        "sales": 8,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-03",
+        "sales": 11,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-04",
+        "sales": 6,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-05",
+        "sales": 23,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-06",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-07",
+        "sales": 13,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-08",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-09",
+        "sales": 18,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-10",
+        "sales": 5,
+        "isFestival": false
+      },
+      {
+        "date": "2026-04-11",
+        "sales": 18,
+        "isFestival": false
+      }
+    ]
+  },
+  "upcomingFestivals": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ]
+}
