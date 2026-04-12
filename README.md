@@ -1115,7 +1115,7 @@ gantt
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-yourusername-2BBFBF?style=flat-square&logo=github&labelColor=0A2E2E)](https://github.com/yourusername/saathi)
-[![Demo](https://img.shields.io/badge/Live%20Demo-saathi.app-5ECBAD?style=flat-square&labelColor=0A2E2E)](https://saathi.app)
+[![Demo](https://saathi-frontend-k6qj.onrender.com/)
 [![Email](https://img.shields.io/badge/Email-team@saathi.app-F4B942?style=flat-square&logo=gmail&logoColor=white&labelColor=0A2E2E)](mailto:team@saathi.app)
 
 </div>
