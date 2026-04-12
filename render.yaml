@@ -5,7 +5,7 @@ services:
     region: oregon
     plan: free
     rootDir: backend/ml-service
-    dockerFilePath: Dockerfile
+    dockerfilePath: Dockerfile
 
   - type: web
     name: saathi-api-server
@@ -13,10 +13,7 @@ services:
     region: oregon
     plan: free
     rootDir: backend/api-server
-    dockerFilePath: Dockerfile
+    dockerfilePath: Dockerfile
     envVars:
       - key: ML_SERVICE_URL
-        # We manually construct the internal URL.
-        # Render services can reach each other via http://name:port
-        # By default, Docker services on Render use port 10000 internally.
         value: http://saathi-ml-service:10000
