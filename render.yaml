@@ -17,3 +17,17 @@ services:
     envVars:
       - key: ML_SERVICE_URL
         value: http://saathi-ml-service:10000
+
+  - type: web
+    name: saathi-frontend
+    env: docker
+    region: oregon
+    plan: free
+    rootDir: frontend
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        # This will be the public URL of your api-server.
+        # Once the api-server is deployed, Render will provide a URL like https://saathi-api-server.onrender.com/api/inventory
+        # You may need to update this value in the Render Dashboard after the first deployment.
+        value: https://saathi-api-server.onrender.com/api/inventory
